@@ -1,0 +1,16 @@
+---
+- name: install - required packages
+  apt:
+    name: "{{ package_name_common }}"
+    state: present
+  loop_control:
+    loop_var: package_name_common
+  loop:
+    - apt-transport-https
+    - ca-certificates
+    - software-properties-common
+    - bash-completion
+    - curl
+    - connect-proxy
+    - jq
+    - snapd
