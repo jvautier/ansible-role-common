@@ -1,5 +1,5 @@
 ---
-fullname: jvautier/ansible-role-chef-dk
+fullname: jvautier/ansible-role-common
 description: Install basics work through ansible
 tags:
   - ansible
