@@ -5,4 +5,7 @@ description: Install basics work through ansible
 tags:
   - ansible
   - ansible-role
-github: {}
+github:
+  has_issues: true
+  has_projects: false
+  has_wiki: false
