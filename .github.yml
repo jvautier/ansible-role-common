@@ -1,0 +1,7 @@
+---
+fullname: jvautier/ansible-role-chef-dk
+description: Install basics work through ansible
+tags:
+  - ansible
+  - ansible-role
+github: {}
